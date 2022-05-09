@@ -17,12 +17,16 @@
     </header>
     
     <div class="first-part">
-        <h3>Ingrese monto total: </h3> <!--Hacer que se vaya actualizando el texto-->
+        <h3 id="instructions">Ingrese monto total: </h3>
         <div class="input">
-            <input type="number">    
+            <input type="number" id="myInput">
         </div>
-        <button>Enter</button>
+        <button id="myBtn">Enter</button>
+        <button class="hide" id="end">Finalizar</button>
     </div>
 
+    <h3 class="output" id="result"></h3> <!--Output-->
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
