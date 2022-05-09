@@ -42,3 +42,12 @@ input[type=number] {
     padding: 1rem;
 }
 
+.output{
+    padding: 2rem;
+    text-align:center;
+}
+
+.hide{
+    display: none;
+}
+
