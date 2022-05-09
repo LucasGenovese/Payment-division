@@ -46,6 +46,9 @@ endBtn.addEventListener("click", ()=> {
         if ( result > 0){
             finalResult.innerHTML += "Al que pago "+ element + " le deben " + result + "<br>";
             console.log(result); 
+        } else {
+            finalResult.innerHTML += "El que pago "+ element + " debe " + (dividedPrice-element) + "<br>"; 
+            console.log(dividedPrice-element);
         }
     });
 })
